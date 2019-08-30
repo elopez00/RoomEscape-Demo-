@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\RoomEscape"
+    "\\RoomEscape",
+    "\\RoomEscape\\Source",
+    "\\RoomEscape\\Source\\MyProject"
   ],
+  "SelectedNode": "\\RoomEscape\\Source\\MyProject\\ShowText.h",
   "PreviewInSolutionExplorer": false
 }

@@ -10,7 +10,6 @@ UShowText::UShowText()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	// ...
 }
 
 
@@ -49,7 +48,7 @@ void UShowText::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 
 void UShowText::DisplayText() 
 {
-	TextRenderComponent->SetText(TEXT("BROO"));
+	TextRenderComponent->SetText(TEXT("Hello Proto058, in case you\ndidn't know, this is your name or\nrather, your ID. You are a highly\nintelligent entity capable of problem-\nsolving. Your interactions with the\nobjects around you are being closely\nmonitored. Just try your best to find\nyour way out of this room."));
 }
 
 void UShowText::HideText()
