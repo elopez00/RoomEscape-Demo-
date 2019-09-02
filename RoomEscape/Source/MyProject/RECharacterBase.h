@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Camera/CameraComponent.h"
+#include "REProjectile.h"
 #include "RECharacterBase.generated.h"
 
 UCLASS()
@@ -38,4 +39,16 @@ public:
 	// First person camera
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
 		UCameraComponent* FirstPersonCameraComponent;
+
+	// Handles firing
+	UFUNCTION()
+		void OnFire();
+
+	// Gun muzzle's ofset from the camera location
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+		FVector MuzzleOffset;
+
+	// Projectile class to spawn
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+		TSubclassOf<class AREProjectile> ProjectileClass;
 };

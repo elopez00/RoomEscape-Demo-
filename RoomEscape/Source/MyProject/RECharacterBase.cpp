@@ -56,6 +56,7 @@ void ARECharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	// Mouse input
 	InputComponent->BindAxis("Turn", this, &ARECharacterBase::AddControllerYawInput);
 	InputComponent->BindAxis("LookUp", this, &ARECharacterBase::AddControllerPitchInput);
+	InputComponent->BindAction("Fire", IE_Pressed, this, &ARECharacterBase::OnFire);
 
 }
 
@@ -96,4 +97,37 @@ void ARECharacterBase::OnStartJump()
 void ARECharacterBase::OnStopJump()
 {
 	bPressedJump = false;
+}
+
+void ARECharacterBase::OnFire()
+{
+	// Try firing projectile
+	if (ProjectileClass != NULL)
+	{
+		// Get the camera transform 
+		FVector CameraLoc;
+		FRotator CameraRot;
+		GetActorEyesViewPoint(CameraLoc, CameraRot);
+		// MuzzleOffset is in camera space
+		FVector const MuzzleLocation = CameraLoc + FTransform(CameraRot).TransformVector(MuzzleOffset);
+		FRotator MuzzleRotation = CameraRot;
+		MuzzleRotation.Pitch += 10.f;
+		UWorld* const World = GetWorld();
+
+		if (World)
+		{
+			FActorSpawnParameters SpawnParams;
+			SpawnParams.Owner = this;
+			SpawnParams.Instigator = Instigator;
+
+			// Spawn the projectile at the muzzle
+			AREProjectile* const Projectile = World->SpawnActor<AREProjectile>(ProjectileClass, MuzzleLocation, MuzzleRotation, SpawnParams);
+			if (Projectile)
+			{
+				// Find launch direction
+				FVector const LaunchDir = MuzzleRotation.Vector();
+				Projectile->InitVelocity(LaunchDir);
+			}
+		}
+	}
 }
