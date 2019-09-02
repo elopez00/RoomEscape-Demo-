@@ -10,7 +10,7 @@ UGrabber::UGrabber()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	// ...
+	
 }
 
 
@@ -20,7 +20,7 @@ void UGrabber::BeginPlay()
 	Super::BeginPlay();
 	FindPhysicsHandleComponent();
 	SetupInputComponent();
-	// ...
+	
 	
 }
 
@@ -30,7 +30,6 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
 	if (!PhysicsHandle) { return; }
 	//if the physics handle is attatched
 	if (PhysicsHandle->GrabbedComponent)
@@ -67,14 +66,13 @@ void UGrabber::Grab()
 	}
 }
 
-
 void UGrabber::Release() 
 {
 	if (!PhysicsHandle) { return; }
 	PhysicsHandle->ReleaseComponent();
 }
 
-// Find Input Component
+
 void UGrabber::SetupInputComponent() 
 {
 	InputComponent = GetOwner()->FindComponentByClass<UInputComponent>();

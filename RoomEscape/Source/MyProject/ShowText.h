@@ -35,6 +35,9 @@ public:
 	// Method to Hide text
 	void HideText();
 
+	// Check if Character is on the pressure plate
+	void CheckCharacterOverlap();
+
 private:
 	UPROPERTY(EditAnywhere)
 		ATriggerVolume* PressurePlate = nullptr; // Interaction with trigger volume
@@ -49,5 +52,6 @@ private:
 	
 	UPROPERTY(EditAnywhere)
 		float DelayTime = 0.5f;
+	
 	float LastDisplayTime = 0.f;
 };

@@ -32,17 +32,8 @@ void UShowText::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	if (PressurePlate->IsOverlappingActor(Character))
-	{
-		DisplayText();
-		LastDisplayTime = GetWorld()->GetTimeSeconds();
-	}
-
-	if (GetWorld()->GetTimeSeconds() - LastDisplayTime > DelayTime)
-	{
-		HideText();
-	}
-
+	// Checks every tick if character is on pressure plate
+	CheckCharacterOverlap();
 }
 
 
@@ -54,4 +45,18 @@ void UShowText::DisplayText()
 void UShowText::HideText()
 {
 	TextRenderComponent->SetText(TEXT(""));
+}
+
+void UShowText::CheckCharacterOverlap()
+{
+	if (PressurePlate->IsOverlappingActor(Character))
+	{
+		DisplayText();
+		LastDisplayTime = GetWorld()->GetTimeSeconds();
+	}
+
+	if (GetWorld()->GetTimeSeconds() - LastDisplayTime > DelayTime)
+	{
+		HideText();
+	}
 }

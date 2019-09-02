@@ -29,7 +29,6 @@ public:
 	void OpenDoor();
 	void CloseDoor();
 	
-	
 	UPROPERTY(BlueprintAssignable)
 		FOnOpenRequest OnOpenRequest;
 	UPROPERTY(BlueprintAssignable)
@@ -45,11 +44,14 @@ private:
 
 	UPROPERTY(EditAnywhere)
 		float DoorCloseDelay = 0.5f;
-		float LastDoorOpenTime;
+		
+	float LastDoorOpenTime;
 
-	AActor* Owner = nullptr; // The owning door
+	// Owning Door
+	AActor* Owner = nullptr; 
+
+	// Character Player Controller
 	ACharacter* Character = nullptr;
 
 	float GetTotalMassOfActorsOnPlate();
-
 };

@@ -3,6 +3,7 @@
 
 #include "MyProjectGameModeBase.h"
 #include "ConstructorHelpers.h"
+#include "REHUD.h"
 
 AMyProjectGameModeBase::AMyProjectGameModeBase(const class FObjectInitializer &ObjectInitializer)
 	:Super(ObjectInitializer)
@@ -13,4 +14,6 @@ AMyProjectGameModeBase::AMyProjectGameModeBase(const class FObjectInitializer &O
 	{
 		DefaultPawnClass = PlayerPawnObject.Class;
 	}
+
+	HUDClass = AREHUD::StaticClass();
 }

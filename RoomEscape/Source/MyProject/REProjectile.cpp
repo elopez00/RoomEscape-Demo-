@@ -32,7 +32,7 @@ AREProjectile::AREProjectile(const FObjectInitializer& ObjectInitializer)
 	CollisionComp = ObjectInitializer.CreateDefaultSubobject<USphereComponent>(this, TEXT("ShpereComp"));
 	CollisionComp->InitSphereRadius(15.f);
 	RootComponent = CollisionComp;
-
+	
 	// Use ProjectileMovementComponent to govern this projectile's movement
 	ProjectileMovement = ObjectInitializer.CreateDefaultSubobject<UProjectileMovementComponent>(this, TEXT("ProjectileComp"));
 	ProjectileMovement->UpdatedComponent = CollisionComp;
@@ -41,6 +41,13 @@ AREProjectile::AREProjectile(const FObjectInitializer& ObjectInitializer)
 	ProjectileMovement->bRotationFollowsVelocity = true;
 	ProjectileMovement->bShouldBounce = true;
 	ProjectileMovement->Bounciness = 0.3f;
+
+	// Set life span
+	InitialLifeSpan = 3.f;
+
+
+	CollisionComp->BodyInstance.SetCollisionProfileName("Projectile");
+	CollisionComp->OnComponentHit.AddDynamic(this, &AREProjectile::OnHit);
 }
 
 void AREProjectile::InitVelocity(const FVector& ShootDirection)
@@ -52,4 +59,11 @@ void AREProjectile::InitVelocity(const FVector& ShootDirection)
 	}
 }
 
+void AREProjectile::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit)
+{
+	if (OtherActor != this && OtherComponent->IsSimulatingPhysics())
+	{
+		OtherComponent->AddImpulseAtLocation(ProjectileMovement->Velocity * 100.0f, Hit.ImpactPoint);
+	}
+}
 

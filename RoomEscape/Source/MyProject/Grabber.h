@@ -40,6 +40,7 @@ private:
 
 	void FindPhysicsHandleComponent();
 
+	// Sets up key binding for grabbing mechanic
 	void SetupInputComponent();
 
 	const FHitResult GetFirstPhysicsBodyInReach();

@@ -14,7 +14,7 @@ UOpenDoor::UOpenDoor()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	// ...
+	
 }
 
 
@@ -54,7 +54,6 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
 	if (GetTotalMassOfActorsOnPlate() > 100.f || PressurePlate->IsOverlappingActor(Character))
 	{
 		OpenDoor();
