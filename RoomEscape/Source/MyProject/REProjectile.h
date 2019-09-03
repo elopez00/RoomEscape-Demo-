@@ -7,6 +7,8 @@
 #include "Classes/Components/SphereComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Components/PrimitiveComponent.h"
+#include "DrawDebugHelpers.h"
+#include "Kismet/GameplayStatics.h"
 #include "REProjectile.generated.h"
 
 UCLASS()
@@ -33,7 +35,15 @@ public:
 	
 	UFUNCTION()
 		void OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit);
+	
+	UFUNCTION(BluePrintCallable, Category = "Weapon")
+		void Fire();
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+		TSubclassOf<UDamageType> DamageType;
+
+	ACharacter* Character;
+	
 private:
 	UPROPERTY(VisibleDefaultsOnly, Category = Projectile)
 		USphereComponent* CollisionComp;

@@ -13,11 +13,11 @@ ARECharacterAI::ARECharacterAI()
 	GetCharacterMovement()->RotationRate = FRotator(0.f, 600.f, 0.f);
 }
 
+
 // Called when the game starts or when spawned
 void ARECharacterAI::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -33,4 +33,3 @@ void ARECharacterAI::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 }
-

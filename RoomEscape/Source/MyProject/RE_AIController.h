@@ -7,6 +7,9 @@
 #include "Perception/AIPerceptionComponent.h"
 #include "Perception/AISenseConfig_Sight.h"
 #include "GameFramework/Controller.h"
+#include "RECharacterAI.h"
+#include "RECharacterBase.h"
+#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "RE_AIController.generated.h"
 
 /**
@@ -45,4 +48,10 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = AI)
 		class UAISenseConfig_Sight* SightConfig;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = AI)
+		bool bIsPlayerDetected;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = AI)
+		float DistanceToPlayer = 0.f;
 };

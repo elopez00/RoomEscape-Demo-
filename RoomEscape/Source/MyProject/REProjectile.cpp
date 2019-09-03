@@ -15,7 +15,7 @@ AREProjectile::AREProjectile()
 void AREProjectile::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	Character = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
 }
 
 // Called every frame
@@ -36,8 +36,8 @@ AREProjectile::AREProjectile(const FObjectInitializer& ObjectInitializer)
 	// Use ProjectileMovementComponent to govern this projectile's movement
 	ProjectileMovement = ObjectInitializer.CreateDefaultSubobject<UProjectileMovementComponent>(this, TEXT("ProjectileComp"));
 	ProjectileMovement->UpdatedComponent = CollisionComp;
-	ProjectileMovement->InitialSpeed = 3000.f;
-	ProjectileMovement->MaxSpeed = 3000.f;
+	ProjectileMovement->InitialSpeed = 300000.f;
+	ProjectileMovement->MaxSpeed = 300000.f;
 	ProjectileMovement->bRotationFollowsVelocity = true;
 	ProjectileMovement->bShouldBounce = true;
 	ProjectileMovement->Bounciness = 0.3f;
@@ -67,3 +67,29 @@ void AREProjectile::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor,
 	}
 }
 
+void AREProjectile::Fire()
+{
+	// Trace the world, from pawn eyes to crosshair location
+	AActor* MyOwner = GetOwner();
+	if (MyOwner)
+	{
+		FVector EyeLocation;
+		FRotator EyeRotation;
+		MyOwner->GetActorEyesViewPoint(EyeLocation, EyeRotation);
+
+		FVector ShotDirection = EyeRotation.Vector();
+		FVector TraceEnd = EyeLocation + (ShotDirection * 10000);
+
+		FCollisionQueryParams QueryParams;
+		QueryParams.AddIgnoredActor(MyOwner);
+		QueryParams.AddIgnoredActor(this);
+		QueryParams.bTraceComplex = true;
+
+		FHitResult Hit;
+		if (GetWorld()->LineTraceSingleByChannel(Hit, EyeLocation, TraceEnd, ECC_Visibility, QueryParams))
+		{
+			AActor* HitActor = Hit.GetActor();
+			UGameplayStatics::ApplyPointDamage(HitActor, 33.4f, ShotDirection, Hit, MyOwner->GetInstigatorController(), this, DamageType);
+		}
+	}
+}

@@ -5,6 +5,11 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "REWayPoint.h"
+#include "Engine/TriggerVolume.h"
+#include "RECharacterBase.h"
+#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
+#include "Components/PrimitiveComponent.h"
 #include "RECharacterAI.generated.h"
 
 UCLASS()
@@ -16,15 +21,20 @@ public:
 	// Sets default values for this character's properties
 	ARECharacterAI();
 
+	
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class AREWayPoint* NextWayPoint;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
 
 };

@@ -50,6 +50,23 @@ void ARE_AIController::OnPossess(APawn* InPawn)
 void ARE_AIController::Tick(float DeltaSeconds)
 {
 	Super::Tick(DeltaSeconds);
+
+	ARECharacterAI* Character = Cast<ARECharacterAI>(GetPawn());
+
+	if (DistanceToPlayer > AISightRadius)
+	{
+		bIsPlayerDetected = false;
+	}
+
+	if (Character->NextWayPoint != nullptr && bIsPlayerDetected == false)
+	{
+		MoveToActor(Character->NextWayPoint, 5.f);
+	}
+	else if (bIsPlayerDetected)
+	{
+		ARECharacterBase* Player = Cast<ARECharacterBase>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+		MoveToActor(Player, 5.f);
+	}
 }
 
 FRotator ARE_AIController::GetControlRotation() const
@@ -64,5 +81,12 @@ FRotator ARE_AIController::GetControlRotation() const
 
 void ARE_AIController::OnPawnDetected(const TArray<AActor*>& DetectedPawns)
 {
+	for (size_t i = 0; i < DetectedPawns.Num(); i++) 
+	{
+		DistanceToPlayer = GetPawn()->GetDistanceTo(DetectedPawns[i]);
 
+		UE_LOG(LogTemp, Warning, TEXT("Distance: %f"), DistanceToPlayer);
+	}
+	bIsPlayerDetected = true;
 }
+

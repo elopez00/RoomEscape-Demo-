@@ -45,6 +45,9 @@ private:
 	UPROPERTY(EditAnywhere)
 		float DoorCloseDelay = 0.5f;
 		
+	UPROPERTY(EditAnywhere)
+		float ReqWeight;
+
 	float LastDoorOpenTime;
 
 	// Owning Door
