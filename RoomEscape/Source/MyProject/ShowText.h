@@ -41,7 +41,19 @@ public:
 private:
 	UPROPERTY(EditAnywhere)
 		ATriggerVolume* PressurePlate = nullptr; // Interaction with trigger volume
+	UPROPERTY(EditAnywhere)
+		FString StringLn1;
+	UPROPERTY(EditAnywhere)
+		FString StringLn2;
+	UPROPERTY(EditAnywhere)
+		FString StringLn3;
+	UPROPERTY(EditAnywhere)
+		FString StringLn4;
+	UPROPERTY(EditAnywhere)
+		FString StringLn5;
 
+	FString Combo;
+	
 	ACharacter* Character = nullptr;
 
 	// Actor that owns the Text Render Component

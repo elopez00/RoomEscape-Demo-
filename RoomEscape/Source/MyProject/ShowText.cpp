@@ -22,8 +22,8 @@ void UShowText::BeginPlay()
 	TextRenderActor = Cast<ATextRenderActor>(GetOwner());
 	TextRenderComponent = TextRenderActor->GetTextRender();
 
-	// Finds Character in the world
-	Character = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
+	Combo = StringLn1 + "\n" + StringLn2 + "\n" + StringLn3 + "\n" + StringLn4 + "\n" + StringLn5;
+	
 }
 
 
@@ -34,12 +34,14 @@ void UShowText::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 
 	// Checks every tick if character is on pressure plate
 	CheckCharacterOverlap();
+	
+	Character = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
 }
 
 
 void UShowText::DisplayText() 
 {
-	TextRenderComponent->SetText(TEXT("Hello Proto058, in case you\ndidn't know, this is your name or\nrather, your ID. You are a highly\nintelligent entity capable of problem-\nsolving. Your interactions with the\nobjects around you are being closely\nmonitored. Just try your best to find\nyour way out of this room."));
+	TextRenderComponent->SetText(Combo);
 }
 
 void UShowText::HideText()
