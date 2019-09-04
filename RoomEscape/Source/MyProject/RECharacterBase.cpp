@@ -28,11 +28,6 @@ ARECharacterBase::ARECharacterBase(const FObjectInitializer &ObjectInitializer)
 void ARECharacterBase::BeginPlay()
 {
 	Super::BeginPlay();
-	
-	if (GEngine) //TODO Erase this when packaging
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("RECharacter is being used!"));
-	}
 }
 
 // Called every frame

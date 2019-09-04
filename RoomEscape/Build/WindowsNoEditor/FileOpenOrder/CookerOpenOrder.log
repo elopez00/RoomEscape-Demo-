@@ -1,0 +1,950 @@
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/crosshair.uasset" 0
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/HeroTPP_Skeleton.uasset" 1
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/Animations/ThirdPersonIdle.uasset" 2
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/Animations/ThirdPersonRun.uasset" 3
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/Animations/ThirdPersonWalk.uasset" 4
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/Animations/RECharacter_BlendSpace.uasset" 5
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/Animations/ThirdPersonJump_End.uasset" 6
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/BlurSampleOffsets.uasset" 7
+"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 8
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast_RGB.uasset" 9
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/HueShift.uasset" 10
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs.uasset" 11
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 12
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 13
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/DitherTemporalAA.uasset" 14
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/BaseTextures/B_N.uasset" 15
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/BaseTextures/BB_D.uasset" 16
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/BaseTextures/BG_D.uasset" 17
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/BaseTextures/T_MASK1.uasset" 18
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/BaseTextures/T_MASK2.uasset" 19
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/BaseMaterial/M_base.uasset" 20
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Newspaper01_D.uasset" 21
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Newspaper01_N.uasset" 22
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Newspaper01_SRM.uasset" 23
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Newspaper01_2.uasset" 24
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Tarp02_N.uasset" 25
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/BaseTextures/BW_D.uasset" 26
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/BaseTextures/TC_HDR01.uasset" 27
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/BaseTextures/TC_HDR02.uasset" 28
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/BaseTextures/T_Dirt_N.uasset" 29
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/BaseTextures/T_gradient_D.uasset" 30
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/tiles_wall_broken_c.uasset" 31
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/tiles_wall_broken_g.uasset" 32
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/tiles_wall_broken_n.uasset" 33
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim__color_pckr.uasset" 34
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_color_green.uasset" 35
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_color_blue.uasset" 36
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/concrete_trim_c.uasset" 37
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/concrete_trim_g.uasset" 38
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/concrete_trim_n.uasset" 39
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Concrete/concrete_trim_CLR_PKR.uasset" 40
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Concrete/concrete_trim_CLR_BLK.uasset" 41
+"../../../Engine/Content/EngineMaterials/BlendFunc_DefBase.uasset" 42
+"../../../Engine/Content/EngineMaterials/BlendFunc_DefBlend.uasset" 43
+"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Blends/Blend_Overlay.uasset" 44
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/decal_grunge_muck_c.uasset" 45
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/decal_grunge_rust_dripping_01.uasset" 46
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dripping_a03.uasset" 47
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dripping_a04.uasset" 48
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/decal_rust_dripping_1_c.uasset" 49
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Light_muck/dripping_a01.uasset" 50
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Light_muck/dripping_a03.uasset" 51
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Light_muck/dripping_a04.uasset" 52
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/dripping_a01.uasset" 53
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/dripping_a02.uasset" 54
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/dripping_a03.uasset" 55
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/dripping_a04.uasset" 56
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/decal_grunge_muck_01.uasset" 57
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/mid_muck01.uasset" 58
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/mid_muck02.uasset" 59
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_a01.uasset" 60
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_a02.uasset" 61
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_a03.uasset" 62
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_a04.uasset" 63
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/decal_grunge_rust_c.uasset" 64
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_b01.uasset" 65
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_b02.uasset" 66
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_b03.uasset" 67
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Rust/decal_rust_dripping_b04.uasset" 68
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/decal_grunge_scratches_01.uasset" 69
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Scratches/scratch_01.uasset" 70
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Scratches/scratch_02.uasset" 71
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Scratches/scratch_03.uasset" 72
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/signs_decals_stickers_c.uasset" 73
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Signs/t_alpha_yellow.uasset" 74
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Signs/t_alpha_white.uasset" 75
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Signs/White.uasset" 76
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Signs/Yellow.uasset" 77
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/window_bump_detal_n.uasset" 78
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/window_spec.uasset" 79
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Glass/Glass2.uasset" 80
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/grunge_dirt_pebble_pile_a_c.uasset" 81
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/grunge_dirt_pebble_pile_a_g.uasset" 82
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/grunge_dirt_pebble_pile_a_n.uasset" 83
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Ground_Rubble/dirt_pebble_pile_dark.uasset" 84
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/ground_gravel_dirt_c.uasset" 85
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/ground_gravel_dirt_g.uasset" 86
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/ground_gravel_dirt_n.uasset" 87
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Ground_Rubble/ground_gravel_dirt_dark.uasset" 88
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uasset" 89
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.uasset" 90
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/beam_window_supports_metal_c.uasset" 91
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/beam_window_supports_metal_g.uasset" 92
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/beam_window_supports_metal_n.uasset" 93
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Metal/metal_trim__color_pckr.uasset" 94
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Metal/metal_trim_white.uasset" 95
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Metal/metal_trim_black.uasset" 96
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Metal/metal_trim_blue.uasset" 97
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Metal/metal_trim_green.uasset" 98
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/beam_window_supports_metal_ao.uasset" 99
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/beam_window_supports_metal_clean_c.uasset" 100
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/beam_window_supports_metal_clean_g.uasset" 101
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/beam_window_supports_metal_clean_n.uasset" 102
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean__color_pckr.uasset" 103
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean_white.uasset" 104
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean_black.uasset" 105
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Metal/metal_trim___default.uasset" 106
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_1x1_a.uasset" 107
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_1x1_a.uasset" 108
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/decal_concrete_muck_n.uasset" 109
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/glass_window_broken_c.uasset" 110
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/Textures/ProtoMaleColors_Masks.uasset" 111
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/Textures/T_PrototypeMale_D.uasset" 112
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/Textures/T_PrototypeMale_M.uasset" 113
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/Textures/T_PrototypeMale_N.uasset" 114
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/Materials/M_CharacterMaster.uasset" 115
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/Textures/ProtoFemaleColors_Masks.uasset" 116
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/Textures/T_PrototypeFemale_D.uasset" 117
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/Textures/T_PrototypeFemale_M.uasset" 118
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/Textures/T_PrototypeFemale_N.uasset" 119
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/Materials/MI_PrototypeFemaleVer1.uasset" 120
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/Materials/MI_PrototypeFemaleVer2.uasset" 121
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Basic_Wall.uasset" 122
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Architecture/Pillar_50x500.uasset" 123
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Architecture/Wall_400x400.uasset" 124
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Architecture/Wall_500x500.uasset" 125
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" 126
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" 127
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Collapse01.uasset" 128
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Collapse02.uasset" 129
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Explosion01.uasset" 130
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Explosion02.uasset" 131
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Fire01.uasset" 132
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Fire_Sparks01.uasset" 133
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Light01.uasset" 134
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Light01_Cue.uasset" 135
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Light02.uasset" 136
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Light02_Cue.uasset" 137
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Smoke01.uasset" 138
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Starter_Birds01.uasset" 139
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Starter_Music01.uasset" 140
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Starter_Wind05.uasset" 141
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Starter_Wind06.uasset" 142
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Steam01.uasset" 143
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Explosion_Cue.uasset" 144
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Burst_M.uasset" 145
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Particles/Materials/M_Burst.uasset" 146
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" 147
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" 148
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Particles/Materials/m_flare_01.uasset" 149
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset" 150
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" 151
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" 152
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" 153
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" 154
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Particles/P_Explosion.uasset" 155
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" 156
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" 157
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" 158
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" 159
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 160
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_MacroVariation.uasset" 161
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/Room1_Brick_Clay_Walls2.uasset" 162
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/My_M_Brick_Clay_New.uasset" 163
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/Room1_Brick_Clay_Walls1.uasset" 164
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/My_M_Brick_Clay_New1.uasset" 165
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset" 166
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" 167
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Bush_D.uasset" 168
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Bush_N.uasset" 169
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/Materials/M_Bush.uasset" 170
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_Bush.uasset" 171
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Chair_M.uasset" 172
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Chair_N.uasset" 173
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/Materials/M_Chair.uasset" 174
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_Couch.uasset" 175
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Glass.uasset" 176
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Door_M.uasset" 177
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Door_N.uasset" 178
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/Materials/M_Door.uasset" 179
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_Door.uasset" 180
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" 181
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" 182
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" 183
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 184
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_RockMesh_M.uasset" 185
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_RockMesh_N.uasset" 186
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/Materials/M_Rock.uasset" 187
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_Rock.uasset" 188
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Shelf_M.uasset" 189
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Shelf_N.uasset" 190
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/Materials/M_Shelf.uasset" 191
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_Shelf.uasset" 192
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Basic_Floor.uasset" 193
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_Stairs.uasset" 194
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_Cone.uasset" 195
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_Cylinder.uasset" 196
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" 197
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_Pipe.uasset" 198
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" 199
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" 200
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_Plane.uasset" 201
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_Torus.uasset" 202
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_Trim.uasset" 203
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" 204
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" 205
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" 206
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_Tube.uasset" 207
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" 208
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" 209
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" 210
+"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 211
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 212
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 213
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 214
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 215
+"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 216
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 217
+"../../../Engine/Content/BasicShapes/Cone.uasset" 218
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 219
+"../../../Engine/Content/BasicShapes/Plane.uasset" 220
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 221
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 222
+"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 223
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 224
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 225
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 226
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 227
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 228
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 229
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 230
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 231
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 232
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 233
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 234
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 235
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 236
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 237
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 238
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 239
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 240
+"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 241
+"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 242
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 243
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 244
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 245
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 246
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 247
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 248
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 249
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 250
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 251
+"../../../Engine/Content/EditorResources/S_Note.uasset" 252
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 253
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 254
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 255
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 256
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 257
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 258
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 259
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 260
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 261
+"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 262
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 263
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 264
+"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 265
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 266
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 267
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 268
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 269
+"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 270
+"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 271
+"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 272
+"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 273
+"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 274
+"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 275
+"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 276
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 277
+"../../../Engine/Content/EngineFonts/Faces/RobotoTiny.uasset" 278
+"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 279
+"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 280
+"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 281
+"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 282
+"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 283
+"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 284
+"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 285
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 286
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 287
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 288
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 289
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 290
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 291
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 292
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 293
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 294
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 295
+"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 296
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 297
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 298
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 299
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 300
+"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 301
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 302
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 303
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 304
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 305
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 306
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 307
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 308
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 309
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 310
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 311
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 312
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 313
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 314
+"../../../Engine/Content/EngineResources/Black.uasset" 315
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 316
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 317
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 318
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 319
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 320
+"../../../Engine/Content/EngineSounds/Master.uasset" 321
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 322
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 323
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 324
+"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 325
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 326
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 327
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 328
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 329
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 330
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 331
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 332
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 333
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 334
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 335
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 336
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 337
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 338
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 339
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 340
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 341
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 342
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 343
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 344
+"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 345
+"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 346
+"../../../Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset" 347
+"../../../Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset" 348
+"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 349
+"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 350
+"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 351
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 352
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 353
+"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 354
+"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 355
+"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 356
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 357
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 358
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 359
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 360
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 361
+"../../Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset" 362
+"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 363
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 364
+"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 365
+"../../Plugins/Runtime/Oculus/OculusVR/Content/OculusMR_RenderTarget.uasset" 366
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 367
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 368
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 369
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 370
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit.uasset" 371
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 372
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.uasset" 373
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 374
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset" 375
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset" 376
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset" 377
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset" 378
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset" 379
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset" 380
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset" 381
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset" 382
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset" 383
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD.uasset" 384
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset" 385
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/Animations/ThirdPerson_Jump.uasset" 386
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/Animations/ThirdPersonJump_Loop.uasset" 387
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/Animations/ThirdPersonJump_Start.uasset" 388
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/Animations/RECharacter_IdleWalk.uasset" 389
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 390
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/Animations/ThirdPerson_AnimBP.uasset" 391
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Lights/interior_lights.uasset" 392
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Fbx_Default_Material.uasset" 393
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/Sphere.uasset" 394
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/BP_REProjectile.uasset" 395
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/Materials/MI_PrototypeMaleVer2.uasset" 396
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/Materials/MI_PrototypeMale.uasset" 397
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/SK_PrototypeM_PhysicsAsset.uasset" 398
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/SK_PrototypeM.uasset" 399
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/BP_RECharacterBase.uasset" 400
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/RE_AIController_BP.uasset" 401
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/Materials/MI_PrototypeMaleVer1.uasset" 402
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/RECharacterAI_BP.uasset" 403
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 404
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 405
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 406
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 407
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 408
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 409
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 410
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 411
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 412
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Glass/Glass.uasset" 413
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts_doors/store_front_door_b_right.uasset" 414
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/OpenableDoor_BP.uasset" 415
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/REWayPoint_BP.uasset" 416
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IntroLevel_BuiltData.uasset" 417
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" 418
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" 419
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" 420
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" 421
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/Hallway_Concrete_Tiles.uasset" 422
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/Room2_Brick_Clay_Walls1.uasset" 423
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/Room2_Brick_Clay_Walls2.uasset" 424
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/Blueprints/Room2_Concrete_Tiles.uasset" 425
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Glass/Glass_Opaque.uasset" 426
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" 427
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" 428
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" 429
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 430
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Concrete_Grime.uasset" 431
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" 432
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" 433
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Concrete_Poured.uasset" 434
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" 435
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" 436
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Metal_Rust.uasset" 437
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Water_M.uasset" 438
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Water_N.uasset" 439
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Water_Ocean.uasset" 440
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" 441
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" 442
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" 443
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" 444
+"../../../Engine/Content/BasicShapes/Cube.uasset" 445
+"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 446
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Barrel01_D.uasset" 447
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Barrel01_N.uasset" 448
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Barrel01_SRM.uasset" 449
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Barrel01_1.uasset" 450
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_Barrel03.uasset" 451
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Tarp01_D.uasset" 452
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Tarp01_N.uasset" 453
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Tarp01_SRM.uasset" 454
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Tarp01_1.uasset" 455
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_Barrel04.uasset" 456
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Box01_D.uasset" 457
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Box01_N.uasset" 458
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Box01_SRM.uasset" 459
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Box01_2.uasset" 460
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_Box01.uasset" 461
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_Box02.uasset" 462
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_Box03.uasset" 463
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Cartonbox01_D.uasset" 464
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Cartonbox01_N.uasset" 465
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Cartonbox01_SRM.uasset" 466
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Cartonbox01_1.uasset" 467
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_CartonBox01.uasset" 468
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_CartonBox03.uasset" 469
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_CartonGarbage02.uasset" 470
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_CartonGarbage03.uasset" 471
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_CartonGarbage05.uasset" 472
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_CartonGarbage06.uasset" 473
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_CartonGarbage07.uasset" 474
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_CartonGarbage08.uasset" 475
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_CartonGarbage09.uasset" 476
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Hose_D.uasset" 477
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Hose_N.uasset" 478
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Hose_SRM.uasset" 479
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Hose01_1.uasset" 480
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_Hose01.uasset" 481
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Newspaper01_1.uasset" 482
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_Newspaper01.uasset" 483
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_Newspaper02.uasset" 484
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_Newspaper03.uasset" 485
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_Pallet01.uasset" 486
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Rack_D.uasset" 487
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Rack_N.uasset" 488
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Rack_SRM.uasset" 489
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Rack01_1.uasset" 490
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_Rack01.uasset" 491
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_Rack02.uasset" 492
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_Tarp01.uasset" 493
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_Tarp02.uasset" 494
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_TrafficBarrel01_D.uasset" 495
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_TrafficBarrel01_N.uasset" 496
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_TrafficBarrel01_SRM.uasset" 497
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_TrafficBarrel01_1.uasset" 498
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_TrafficBarrel01.uasset" 499
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_WaterTank01_D.uasset" 500
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_WaterTank01_N.uasset" 501
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_WaterTank01_SRM.uasset" 502
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_WaterTank01.uasset" 503
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_WaterTank01.uasset" 504
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1x4.uasset" 505
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Metal/metal_trim__roughness+color_pckr.uasset" 506
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Metal/metal_trim_grey_glossy.uasset" 507
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Building_Deco/deco_building_electrical_beam_b.uasset" 508
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Building_Deco/deco_building_exhaust_vent.uasset" 509
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Building_Deco/deco_windows_airconditioning.uasset" 510
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Building_Deco/deco_windows_panel_d.uasset" 511
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Ground_Rubble/dirt_pebble_pile.uasset" 512
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Rubble_Piles/rubble_dirt_pebble_pile_a.uasset" 513
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Architecture/Floor_400x400.uasset" 514
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Architecture/Wall_400x200.uasset" 515
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Architecture/Wall_400x300.uasset" 516
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" 517
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Frame_M.uasset" 518
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Frame_N.uasset" 519
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/Materials/M_Frame.uasset" 520
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_DoorFrame.uasset" 521
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Lamp_M.uasset" 522
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Lamp_N.uasset" 523
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/Materials/M_Lamp.uasset" 524
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" 525
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IntroLevel.umap" 526
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Gray.uasset" 527
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_Barrel01.uasset" 528
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_Barrel02.uasset" 529
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_CartonBox02.uasset" 530
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_CartonGarbage01.uasset" 531
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Meshes/SM_CartonGarbage04.uasset" 532
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Maps/Overview.umap" 533
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Barrel01_2.uasset" 534
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Barrel01_3.uasset" 535
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Barrel01_4.uasset" 536
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Barrel01_5.uasset" 537
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Barrel01_6.uasset" 538
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Box01_1.uasset" 539
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Box01_3.uasset" 540
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Box01_4.uasset" 541
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Cartonbox01_2.uasset" 542
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/MI_Hose01_2.uasset" 543
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Textures/T_Tarp02_D.uasset" 544
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Materials/Mi_Tarp01_2.uasset" 545
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/IndustryPropsPack6/Maps/Showcase.umap" 546
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/brick_wall_tiling_c_beige.uasset" 547
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/brick_wall_tiling_g.uasset" 548
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/brick_wall_tiling_n.uasset" 549
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/brick_wall_beige.uasset" 550
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/brick_wall_tiling_c_dark_red.uasset" 551
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/brick_wall_dark_red.uasset" 552
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/brick_wall_tiling_c_grey.uasset" 553
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/brick_wall_grey.uasset" 554
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/brick_wall_tiling_c_red.uasset" 555
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/brick_wall_red.uasset" 556
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/bricks_red_c.uasset" 557
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/bricks_red_g.uasset" 558
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/bricks_red_n.uasset" 559
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/bricks_red.uasset" 560
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/bricks_red_concrete_trim_c.uasset" 561
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/bricks_red_concrete_trim_g.uasset" 562
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/bricks_red_concrete_trim_n.uasset" 563
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/bricks_red_concrete_trim.uasset" 564
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim___default.uasset" 565
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/cloth_awning_intact_c.uasset" 566
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/cloth_awning_intact_g.uasset" 567
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/cloth_awning_intact_n.uasset" 568
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Cloth/cloth_awning_intact__default.uasset" 569
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Concrete/concrete_trim.uasset" 570
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/decal_bird_poop_c.uasset" 571
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/bird_poop.uasset" 572
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dark_muck01.uasset" 573
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dark_muck02.uasset" 574
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dark_muck03.uasset" 575
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dripping_a01.uasset" 576
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Dark_muck/dripping_a02.uasset" 577
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Light_muck/dripping_a02.uasset" 578
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Light_muck/lite_muck01.uasset" 579
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Light_muck/lite_muck02.uasset" 580
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Light_muck/lite_muck03.uasset" 581
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Grunge/Mid_muck/mid_muck03.uasset" 582
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Signs/x_alpha_yellow.uasset" 583
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/glass_window_broken_g.uasset" 584
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/glass_window_broken_n.uasset" 585
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Glass/Glass_Opaq_Cracked.uasset" 586
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Ground_Rubble/Road.uasset" 587
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/window_depth_a.uasset" 588
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Lights/window_lgt_default.uasset" 589
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_color_red.uasset" 590
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_color_black.uasset" 591
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_color_white.uasset" 592
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Cloth/cloth_intact_clr_pckr_red.uasset" 593
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Cloth/cloth_intact_clr_pckr_blue.uasset" 594
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/cloth_awning_torn_c.uasset" 595
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/cloth_awning_torn_g.uasset" 596
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/cloth_awning_torn_n.uasset" 597
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Cloth/cloth_awning_torn__default.uasset" 598
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Cloth/cloth_torn_clr_pckr_red.uasset" 599
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Cloth/cloth_torn_clr_pckr_blue.uasset" 600
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Signs/x_alpha_white.uasset" 601
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Signs/x_alpha_grey.uasset" 602
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Signs/x_alpha_dark.uasset" 603
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Ground_Rubble/Light.uasset" 604
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Ground_Rubble/Road_Inst.uasset" 605
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Lights/LGT_white.uasset" 606
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Lights/window_lgt_blue.uasset" 607
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Lights/window_lgt_white.uasset" 608
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Lights/window_lgt_yellow.uasset" 609
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Metal/metal_trim_light_grey.uasset" 610
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_metal_window_divider_4x1.uasset" 611
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_metal_window_divider_5x1.uasset" 612
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_metal_window_divider_corner.uasset" 613
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1_top.uasset" 614
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1x2.uasset" 615
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1x2_tiling.uasset" 616
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_corner_top.uasset" 617
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_tiles_corner_bottom.uasset" 618
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Building_Deco/deco_building_electrical_beam_a.uasset" 619
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Metal/metal_trim_black_glossy.uasset" 620
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Building_Deco/deco_building_electrical_wire_a.uasset" 621
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Building_Deco/deco_building_electrical_wire_b.uasset" 622
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Building_Deco/deco_store_awning_intact_4x1.uasset" 623
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Building_Deco/deco_store_awning_torn_4x1.uasset" 624
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Building_Deco/deco_windows_panel_b.uasset" 625
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Signs/stickers_decals.uasset" 626
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_poster_lost_chicken.uasset" 627
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sign_store_health_code.uasset" 628
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sign_store_hours.uasset" 629
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sign_store_sorry_open.uasset" 630
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sticker_alarm_warning.uasset" 631
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sticker_store_address_a.uasset" 632
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sticker_store_address_b.uasset" 633
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sticker_store_pull.uasset" 634
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Decals_Stickers_Posters/decal_sticker_store_push.uasset" 635
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_4x1_a.uasset" 636
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_4x1_a_interior.uasset" 637
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_4x4_a.uasset" 638
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_4x4_a_interior.uasset" 639
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/grunge_rubble_pile_c.uasset" 640
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/grunge_rubble_pile_g.uasset" 641
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/grunge_rubble_pile_n.uasset" 642
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Ground_Rubble/trash_pile.uasset" 643
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Rubble_Piles/rubble_trash_pile_a.uasset" 644
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/black_interior.uasset" 645
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts/store_front_door_4x1_a.uasset" 646
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts/store_front_door_4x1_b.uasset" 647
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Glass/Glass_Cracked.uasset" 648
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts/store_front_door_5x1_a.uasset" 649
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/window_store_shutters_c.uasset" 650
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/window_store_shutters_g.uasset" 651
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/window_store_shutters_n.uasset" 652
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Metal/metal_shutters.uasset" 653
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts/store_front_shutters_4x1_a.uasset" 654
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/glass_shards_c.uasset" 655
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/glass_shards_n.uasset" 656
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Glass/Glass_Shards.uasset" 657
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_broken_4x1_a.uasset" 658
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_broken_4x1_c.uasset" 659
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_intact_4x1_a.uasset" 660
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_intact_4x1_b.uasset" 661
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_intact_4x1_c.uasset" 662
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts_doors/store_front_door_b_left.uasset" 663
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_door_4x1_b.uasset" 664
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_door_5x1_a.uasset" 665
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_broken_4x1_a.uasset" 666
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_broken_4x1_b.uasset" 667
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/signs_decals_chinese_stores_c.uasset" 668
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/signs_decals_chinese_stores_g.uasset" 669
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/signs_decals_chinese_stores_n.uasset" 670
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Decals_Signs/store_signs.uasset" 671
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_Signs/sign_store_a.uasset" 672
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_Signs/sign_store_a1.uasset" 673
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_Signs/sign_store_b.uasset" 674
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_Signs/sign_store_b1.uasset" 675
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_Signs/sign_store_broken_d.uasset" 676
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_Signs/sign_store_c.uasset" 677
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_Signs/sign_store_c1.uasset" 678
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_Signs/sign_store_intact_d.uasset" 679
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_Upper_Wndws/windows_building_upper_4x1_a.uasset" 680
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_Upper_Wndws/windows_building_upper_4x1_b.uasset" 681
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_Upper_Wndws/windows_building_upper_4x1_c.uasset" 682
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_Upper_Wndws/windows_building_upper_4x1_d.uasset" 683
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_clmn_1x2.uasset" 684
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_clmn_dvdr_1x1.uasset" 685
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wall_a_l_2x2.uasset" 686
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wall_a_l_3x2.uasset" 687
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wall_a_r_2x2.uasset" 688
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wall_a_r_3x2.uasset" 689
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_a_l_2x2.uasset" 690
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_a_l_3x2.uasset" 691
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_a_r_2x2.uasset" 692
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_a_r_3x2.uasset" 693
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_b_l_2x2.uasset" 694
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_b_l_3x2.uasset" 695
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_b_r_3x2.uasset" 696
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_c_l_2x2.uasset" 697
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_c_l_3x2.uasset" 698
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_c_r_3x2.uasset" 699
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_d_2x2.uasset" 700
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_d_3x2.uasset" 701
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Deco/deco_fire_escape_balcony.uasset" 702
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Deco/deco_fire_escape_ladder.uasset" 703
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Deco/deco_fire_escape_ladder_top.uasset" 704
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_blocks_0x2.uasset" 705
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_blocks_cnr_0x2.uasset" 706
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_blocks_cnr_1x2.uasset" 707
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_ornament_flower_a.uasset" 708
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_ornament_flower_b.uasset" 709
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_cnr_l_3x2.uasset" 710
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_cnr_r_3x2.uasset" 711
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_l_2x2.uasset" 712
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_l_3x2.uasset" 713
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_r_2x2.uasset" 714
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_r_3x2.uasset" 715
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_a_1x1.uasset" 716
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_a_4x1.uasset" 717
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_a_cnr_2x2.uasset" 718
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_a_cnr_4x4.uasset" 719
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_b_1x1.uasset" 720
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_b_4x1.uasset" 721
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_b_cnr_2x2.uasset" 722
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_b_cnr_4x4.uasset" 723
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_end_l.uasset" 724
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Roof_Trims/beam_upper_roof_trim_end_r.uasset" 725
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Ground_Rubble/ground_gravel_dirt.uasset" 726
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Walls_Grounds/plane_ground_3x3.uasset" 727
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Walls_Grounds/plane_ground_4x4.uasset" 728
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_3x3.uasset" 729
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Demo_Scene.umap" 730
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/brick_wall_tiling_c_orange.uasset" 731
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/brick_wall_orange.uasset" 732
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/tiles_wall_clean_c.uasset" 733
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/tiles_wall_clean_g.uasset" 734
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/tiles_wall_clean_n.uasset" 735
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_clean/tile_trim_clean___default.uasset" 736
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean___default.uasset" 737
+"../../../Engine/Content/TemplateResources/M_Template_Master.uasset" 738
+"../../../Engine/Content/TemplateResources/MI_Template_BaseGray_03_Metal.uasset" 739
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Textures/tiles_wall_clean_ao.uasset" 740
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_clean/tile_trim_clean__color_pckr.uasset" 741
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_clean/tile_trim_clean_color_white.uasset" 742
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_clean/tile_trim_clean_color_blue.uasset" 743
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Bricks_Tiles/tile_trim_clean/tile_trim_clean_color_red.uasset" 744
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean_green.uasset" 745
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/materials/Metal/metal_trim_clean/metal_trim_clean_blue.uasset" 746
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Beams_Pillars/beam_metal_window_divider_1x1.uasset" 747
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Building_Deco/deco_windows_panel_a.uasset" 748
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Building_Deco/deco_windows_panel_c.uasset" 749
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_1x1_a_interior.uasset" 750
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_2x2_a.uasset" 751
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_2x2_b.uasset" 752
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_5x4_a.uasset" 753
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_corner_5x4_a_interior.uasset" 754
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_end_cap_a.uasset" 755
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Roof_Trims/beam_roof_trim_end_cap_b.uasset" 756
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts/store_front_shutters_3x1_a.uasset" 757
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts/store_front_windows_broken_4x1_b.uasset" 758
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts_doors/store_front_door_a_left.uasset" 759
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts_doors/store_front_door_a_right.uasset" 760
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_door_4x1_a.uasset" 761
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_broken_4x1_c.uasset" 762
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_intact_4x1_a.uasset" 763
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_intact_4x1_b.uasset" 764
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_fronts_interiors/store_front_windows_intact_4x1_c.uasset" 765
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Store_Upper_Wndws/windows_building_upper_5x1_a.uasset" 766
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_b_r_2x2.uasset" 767
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_c_r_2x2.uasset" 768
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_ornament_flower_c.uasset" 769
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_cnr_l_2x2.uasset" 770
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Upper_Mid_Wndws/mid_brick_wndw_cnr_r_2x2.uasset" 771
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_3x2.uasset" 772
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_left_2x2.uasset" 773
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_left_2x3.uasset" 774
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_right_2x2.uasset" 775
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Meshes/Walls_Grounds/plane_wall_right_2x3.uasset" 776
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ModularBuildingSet/Overview.umap" 777
+"../../../Engine/Content/MapTemplates/Materials/BasicTemplateMaterial.uasset" 778
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/Materials/MI_PrototypeFemale.uasset" 779
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/SK_PrototypeF_PhysicsAsset.uasset" 780
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/SK_PrototypeF.uasset" 781
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/ProtoCharacters/Showcase.umap" 782
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" 783
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" 784
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" 785
+"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 786
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" 787
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" 788
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" 789
+"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset" 790
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Blueprints/Assets/Skybox.uasset" 791
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" 792
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" 793
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Blueprints/BP_LightStudio.uasset" 794
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" 795
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_AssetPlatform.uasset" 796
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 797
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 798
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 799
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/Color_checker.uasset" 800
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 801
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 802
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 803
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" 804
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Maps/Advanced_Lighting.umap" 805
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" 806
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" 807
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" 808
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" 809
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" 810
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" 811
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Metal_Copper.uasset" 812
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Statue_M.uasset" 813
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Statue_N.uasset" 814
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" 815
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Starter_Background_Cue.uasset" 816
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_Chair.uasset" 817
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/Materials/M_Statue.uasset" 818
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_Statue.uasset" 819
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_TableRound_M.uasset" 820
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_TableRound_N.uasset" 821
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/Materials/M_TableRound.uasset" 822
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_TableRound.uasset" 823
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Maps/Minimal_Default.umap" 824
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Fire01_Cue.uasset" 825
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Fire_SubUV.uasset" 826
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" 827
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" 828
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" 829
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" 830
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Particles/P_Fire.uasset" 831
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" 832
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Smoke01_Cue.uasset" 833
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Particles/P_Smoke.uasset" 834
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" 835
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" 836
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Spark_Core.uasset" 837
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Particles/Materials/M_Spark.uasset" 838
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Particles/P_Sparks.uasset" 839
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" 840
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Steam01_Cue.uasset" 841
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Particles/P_Steam_Lit.uasset" 842
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" 843
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" 844
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_Lamp_Wall.uasset" 845
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" 846
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" 847
+"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset" 848
+"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset" 849
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 850
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 851
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 852
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" 853
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" 854
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" 855
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" 856
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" 857
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" 858
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" 859
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" 860
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" 861
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" 862
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" 863
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" 864
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" 865
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" 866
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" 867
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" 868
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" 869
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" 870
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" 871
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" 872
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" 873
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Gradinet_01.uasset" 874
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" 875
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" 876
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" 877
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" 878
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" 879
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" 880
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" 881
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" 882
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Concrete_Panels.uasset" 883
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" 884
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" 885
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Ground_Grass.uasset" 886
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" 887
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" 888
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Ground_Gravel.uasset" 889
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_ground_Moss_D.uasset" 890
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" 891
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Ground_Moss.uasset" 892
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Metal_Chrome.uasset" 893
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" 894
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Metal_Gold.uasset" 895
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" 896
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" 897
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Metal_Steel.uasset" 898
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" 899
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Rock_Basalt.uasset" 900
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" 901
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" 902
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" 903
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" 904
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" 905
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" 906
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Rock_Slate.uasset" 907
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" 908
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Single_Tile_N.uasset" 909
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" 910
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" 911
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" 912
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" 913
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" 914
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" 915
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" 916
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" 917
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" 918
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Tech_Panel.uasset" 919
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Water_Lake.uasset" 920
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset" 921
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" 922
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" 923
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" 924
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Wood_Oak.uasset" 925
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" 926
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" 927
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Wood_Pine.uasset" 928
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" 929
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" 930
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Materials/M_Wood_Walnut.uasset" 931
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" 932
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Collapse_Cue.uasset" 933
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Audio/Starter_Music_Cue.uasset" 934
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" 935
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" 936
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Particles/P_Ambient_Dust.uasset" 937
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/MaterialSphere.uasset" 938
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_CornerFrame.uasset" 939
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_GlassWindow.uasset" 940
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_PillarFrame.uasset" 941
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_PillarFrame300.uasset" 942
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Props/SM_WindowFrame.uasset" 943
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_Cube.uasset" 944
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" 945
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Shapes/Shape_Sphere.uasset" 946
+"C:/Users/Eddie/Documents/Game Dev projects/RoomEscape/RoomEscape/Content/StarterContent/Maps/StarterMap.umap" 947
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 948
+"../../../Engine/Content/Maps/Entry.umap" 949
