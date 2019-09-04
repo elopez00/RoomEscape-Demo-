@@ -111,7 +111,7 @@ void ARECharacterBase::OnFire()
 		// MuzzleOffset is in camera space
 		FVector const MuzzleLocation = CameraLoc + FTransform(CameraRot).TransformVector(MuzzleOffset);
 		FRotator MuzzleRotation = CameraRot;
-		MuzzleRotation.Pitch += 10.f;
+		MuzzleRotation.Pitch += 0.f;
 		UWorld* const World = GetWorld();
 
 		if (World)
@@ -127,6 +127,7 @@ void ARECharacterBase::OnFire()
 				// Find launch direction
 				FVector const LaunchDir = MuzzleRotation.Vector();
 				Projectile->InitVelocity(LaunchDir);
+				Projectile->Fire();
 			}
 		}
 	}
